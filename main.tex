@@ -1,0 +1,71 @@
+\documentclass[a4paper]{article}
+%\usepackage{simplemargins}
+
+%\usepackage[square]{natbib}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\begin{document}
+\pagenumbering{gobble}
+
+\Large
+ \begin{center}
+ Performance analysis of Optically Pumped ${}^{4}\mathbf{He}$ Magnetometers vs. Conventional SQUID\\ 
+
+\hspace{10pt}
+
+% Author names and affiliations
+\large
+Arthur Author$^1$, Cecilia CoAuthor$^2$ \\
+
+\hspace{10pt}
+
+\small  
+$^1$ First affiliation\\
+arthur.author@correspondence.email.com\\
+$^2$ Second affiliation
+
+\end{center}
+
+\hspace{10pt}
+
+\normalsize
+\textbf{Background} / \\
+
+Optically-pumped magnetometers (OPMs) have recently reached sensitivity levels required for magnetoence-phalography (MEG). OPMs do not need cryogenics and can thus be placed within millimetres from the scalpinto an array that adapts to the individual head size and shape, thereby reducing the distance from cortical sources to the sensors.
+
+
+
+\textbf{Methods} /  \\
+
+ Here, we quantified the improvement in recording MEG with hypothetical on-scalp OPMarrays compared to a 306-channel state-of-the-art SQUID array (102 magnetometers and 204 planargradiometers).We simulated OPM arrays that measured either normal (nOPM; 102 sensors), tangential (tOPM; 204sensors), or all components (aOPM; 306 sensors) of the magneticfield. We built forward models based on magnetic resonance images of 10 adult heads; we employed a three-compartment boundary element model anddistributed current dipoles evenly across the cortical mantle.
+ 
+ ompared to the SQUID magnetometers, nOPM and tOPM yielded 7.5 and 5.3 times higher signal power,while the correlations between the field patterns of source dipoles were reduced by factors of 2.8 and 3.6,respectively. Values of the field-pattern correlations were similar across nOPM, tOPM and SQUID gradiometers.
+
+The OPM and MEG forward models were based on anatomical data from a 42-year old male volunteer subject and 9 yrs ....\\
+
+The MEG sensor array consisted of N = 102 MEG magnetometers, measuring the magnetic field component approximately radial to the surface of the head; The OPM sensor array that measured either normal (nOPM; 102 sensors), tangential (tOPM; 204sensors), or all components (aOPM; 306 sensors) of the magneticfield.\\
+
+The forward matrix was computed using the Brainstorm software
+
+We quantified computationally the dependency of MEG and OPM on the source orientation using a forward model with realistic tissue boundaries.\\
+
+In the present simulation study we mapped the dependency of OPM and MEG signal magnitude on the orientation of a current dipole in a dense grid of source locations in the human cerebral cortex. We examined the ratio of the signals due to a dipole having an orientation with the lowest vs. the highest sensitivity for an array of OPM or MEG sensors. A forward solution for each source location was constructed using a boundary-element method. The source orientations with the lowest and the highest sensitivity were determined with the help of the singular value decomposition (SVD). 
+
+the SVD automatically provides the source
+orientation of lowest and highest signal power in the sensor
+array.
+
+\textbf{Results} /  \\
+
+The median value for the ratio of the signal magnitude for the source orientation of the lowest and the highest sensitivity was 0.06 for MEG and *0.63° for OPM. 
+
+ Volume currents reduced the signals of primary currents on average by 10\% , 72\% and 15\% in nOPM, tOPM andSQUID magnetometers, respectively. The information capacities of the OPM arrays were clearly higher than that of the SQUID array. The dipole-localization accuracies of the arrays were similar while the minimum-norm-based point-spread functions were on average 2.4 and 2.5 times more spread for the SQUID array compared to nOPM and tOPM arrays, respectively.
+
+\textbf{ Discussion} / \\
+
+
+
+\end{document}
